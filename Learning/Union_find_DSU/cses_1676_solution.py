@@ -3,7 +3,7 @@ edges = []
 for _ in range(m):
     a, b = map(int, input().split())
     edges.append((a, b))
-    
+    1
 def find(x):
     if fa[x]!=x:
         fa[x] = find(fa[x])
@@ -22,6 +22,8 @@ def union(x,y):
     y = find(y)
     if (x==y):
         return
+    if (size[x]<size[y]):
+        x,y = y,x
     fa[y]=x
     size[x]+=size[y]
     max_size = max(max_size,size[x])
