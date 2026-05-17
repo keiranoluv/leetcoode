@@ -4,20 +4,18 @@ class Solution:
         n = len(arr)
         visited = [False]*n
         
-        q = []
-        cnt = 0
-        q.append(start)
-        while (q):
-            s = q.pop(0)
-            print(s, arr[s])
-            visited[s] = True
-            if (arr[s]==0):
-                cnt+=1
+        def dfs(start):
+            visited[start] = True
+            if (arr[start]==0):
+                return True
             
-            for target in [s-arr[s],s+arr[s]]:
-                if 0<=target<n and visited[target]==False:
-                    q.append(target)
+            for target in [start-arr[start], start+arr[start]]:
+                if ((0<=target<n) and (visited[target]==False)):
+                    if (dfs(target)):
+                        return True
 
-        return True if cnt>= 1 else False
+            return False
 
+
+        return dfs(start)
         
