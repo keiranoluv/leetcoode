@@ -1,53 +1,51 @@
-# 🍳 LeetCook
+# LeetCook
 
-> just a daily log of me grinding leetcode :P
-
----
-
-## 🧠 about
-
-this repo is nothing fancy.
-
-just a place where i:
-- solve leetcode problems
-- let LeetSync auto-push everything
-- and slowly lose my sanity
+> Just a daily log of me grinding leetcode :P
 
 ---
 
-## ⚙️ powered by
+## About
 
-auto-synced using:  
-👉 https://github.com/LeetSync/LeetSync
+This repo is nothing fancy.
 
-so yeah…  
-if commits look weird, it's not me.  
-(it's still me.)
-
----
-
-## 📂 structure
-
-- file name = leetcode problem id  
-- language = mostly python, sometimes cpp when i'm desperate  
+Just a place where i:
+- Solve leetcode problems
+- Let LeetSync auto-push everything
+- And slowly lose my sanity
 
 ---
 
-## 💀 status
+## Powered by
 
-- easy → ok  
-- medium → hmm  
-- hard → 💀  
+Auto-synced using: https://github.com/LeetSync/LeetSync
+
+So yeah…  
+If commits look weird, it's not me.  (It's still me.)
 
 ---
 
-## 🧃 note
+## Structure
 
-no guarantee:
-- clean code  
-- optimal solutions  
-- or even understanding what i wrote  
+- File name = leetcode problem id  
+- Language = mostly python, sometimes cpp when i'm desperate  :))
 
-but hey…
+---
 
-> it passed. that's enough.
+## Status
+
+- Easy → Ok  
+- Medium → Hmm  
+- Hard → 💀  
+
+---
+
+## Note
+
+No guarantee:
+- Clean code  
+- Optimal solutions  
+- Or even understanding what i wrote  
+
+But...
+
+> It passed bro. That's enough.
